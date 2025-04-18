@@ -1,6 +1,5 @@
 import streamlit as st
 from main import ConcertTourManager
-import sys
 import os
 import warnings
 

@@ -1,6 +1,5 @@
 import re
 import os
-import warnings
 from core.document_processor import DocumentProcessor
 from core.rag_system import RAGSystem
 
