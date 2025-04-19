@@ -25,7 +25,7 @@ class RAGSystem:
 
     def query(self, question, k=2):
         """Safe query with error handling"""
-        concert_terms = {'concert', 'tour', 'venue', 'artist', 'date'}
+        concert_terms = {'concert', 'tour', 'venue', 'artist', 'band', 'schedule', 'date', 'ticket', 'arena', 'performance'}
         if not any(term in question.lower() for term in concert_terms):
             return ["Please ask about concert tours"]
         

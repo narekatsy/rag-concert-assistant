@@ -85,10 +85,7 @@ class DocumentProcessor:
             return False
         return True
 
-    CONCERT_KEYWORDS = {
-        'concert', 'tour', 'venue', 'artist', 'band', 
-        'schedule', 'date', 'ticket', 'arena', 'performance'
-    }
+    CONCERT_KEYWORDS = {'concert', 'tour', 'venue', 'artist', 'band', 'schedule', 'date', 'ticket', 'arena', 'performance'}
 
     def is_concert_related(self, text):
         text_lower = text.lower()

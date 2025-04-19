@@ -83,7 +83,7 @@ class ConcertTourManager:
             if len(question.strip()) < 4:
                 return "Please ask a more specific question."
                 
-            concert_terms = {'concert', 'tour', 'venue', 'artist', 'date', 'when', 'where', 'perform'}
+            concert_terms = {'concert', 'tour', 'venue', 'artist', 'band', 'date', 'when', 'where', 'perform'}
             if not any(term in question.lower() for term in concert_terms):
                 return "I can only answer questions about concert tours."
                 
