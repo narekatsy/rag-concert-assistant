@@ -32,7 +32,7 @@ A Python service that manages and retrieves concert tour information from docume
 ### Repository Structure
 
 ```bash
-concert-tour-assistant/
+rag-concert-assistant/
 ├── .streamlit/             # Streamlit configuration
 │ └── config.toml
 ├── core/
@@ -71,8 +71,8 @@ concert-tour-assistant/
 1. Clone the Repository:
 
 ```bash
-git clone https://github.com/narekatsy/ProvectusInternship_NarekHakobyan.git
-cd ProvectusInternship_NarekHakobyan
+git clone https://github.com/narekatsy/rag-concert-assistant.git
+cd rag-concert-assistant
 ```
 
 2. Install Dependencies:
